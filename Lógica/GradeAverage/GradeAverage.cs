@@ -1,8 +1,6 @@
-﻿
-using System;
-class GradeAverage
+﻿class GradeAverage
 {
-    static void main(string[] args)
+    static void Main(string[] args)
     {
         Console.WriteLine("Digite a sua nota na primeira unidade:");
         double nota1 = double.Parse(Console.ReadLine());
@@ -27,5 +25,4 @@ class GradeAverage
 
     }
 }
-
 
